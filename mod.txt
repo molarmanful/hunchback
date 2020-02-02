@@ -1,14 +1,14 @@
 {
-"name" : "Deadeye Perk Deck",
-"description" : "Deadeye is a highly trained marksman able to change the flow of the battle by eliminating key targets while the rest of the squad takes care of the rest.",
-"author" : "Yuri (+ BP)",
-"image" : "logo.png"
-"version" : "7.23.01.20",
-"blt_version" : 2
-"hooks" : [
-{ "hook_id" : "lib/tweak_data/skilltreetweakdata", "script_path" : "skilltree.lua" },
-{ "hook_id" : "lib/managers/localizationmanager", "script_path" : "loc_EN.lua" },
-{ "hook_id" : "lib/tweak_data/upgradestweakdata", "script_path" : "perks.lua" }
-{ "hook_id" : "lib/managers/playermanager", "script_path" : "playermanager.lua" }
-{ "hook_id" : "lib/units/weapons/newraycastweaponbase", "script_path" : "newraycastweaponbase.lua" }
-]}
+  "name": "Hunchback Perk Deck",
+  "description": "A perk deck that rewards crouching and headshotting.",
+  "author" : "molarmanful",
+  "version" : "0.0.0",
+  "blt_version" : 2
+  "hooks" : [
+    { "hook_id" : "lib/tweak_data/skilltreetweakdata", "script_path" : "skilltree.lua" },
+    { "hook_id" : "lib/managers/localizationmanager", "script_path" : "loc_EN.lua" },
+    { "hook_id" : "lib/tweak_data/upgradestweakdata", "script_path" : "perks.lua" }
+    { "hook_id" : "lib/managers/playermanager", "script_path" : "playermanager.lua" }
+    { "hook_id" : "lib/units/weapons/newraycastweaponbase", "script_path" : "newraycastweaponbase.lua" }
+  ]
+}

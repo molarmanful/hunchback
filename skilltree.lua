@@ -49,31 +49,31 @@ function SkillTreeTweakData:init(tweak_data)
     {
       upgrades = {"hb_dodge", "hb_dodge_crouch"},
       cost = pc1,
-      icon_xy = {1, 1},
+      icon_xy = {5, 4},
       name_id = "hb'perk1n",
       desc_id = "hb'perk1d"
     }, ps2, {
       upgrades = {"hb_reload_crouch"},
       cost = pc3,
-      icon_xy = {5, 5},
+      icon_xy = {5, 2},
       name_id = "hb'perk3n",
       desc_id = "hb'perk3d"
     }, ps4, {
       upgrades = {"hb_speed", "hb_crouch_speed"},
       cost = pc5,
-      icon_xy = {2, 2},
+      icon_xy = {4, 2},
       name_id = "hb'perk5n",
       desc_id = "hb'perk5d"
     }, ps6, {
       upgrades = {"player_dodge_replenish_armor", "hb_armor_break"},
       cost = pc7,
-      icon_xy = {0, 0},
+      icon_xy = {6, 3},
       name_id = "hb'perk7n",
       desc_id = "hb'perk7d"
     }, ps8, {
       upgrades = {"hb_headshot", "hb_regen"},
       cost = pc9,
-      icon_xy = {1, 0},
+      icon_xy = {3, 7},
       name_id = "hb'perk9n",
       desc_id = "hb'perk9d"
     }

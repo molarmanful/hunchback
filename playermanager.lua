@@ -12,7 +12,8 @@ Hooks:PostHook(PlayerManager, "on_lethal_headshot_dealt", "playermanager__on_let
 
   if damage_ext then
     if regen_health then
-      local hp = damage_ext:get_real_health() / damage_ext:max_health() * 100
+      local hp = damage_ext:get_real_health() / damage_ext:_max_health()
+      log(tostring(hp))
       damage_ext:restore_health(math.log(2 / (hp + 1)), false, false)
     end
     damage_ext:restore_armor(regen_armor_bonus)

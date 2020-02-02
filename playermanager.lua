@@ -7,14 +7,12 @@ Hooks:PostHook(PlayerManager, "on_lethal_headshot_dealt", "playermanager__on_let
   end
 
   local damage_ext = player_unit:character_damage()
-  local regen_health = self:upgrade_value("player", "de_regen", {false, 0})[1]
-  local regen_armor_bonus = self:upgrade_value("player", "de_regen", {false, 0})[2]
+  local regen_health_bonus = self:upgrade_value("player", "de_regen", {0, 0})[1]
+  local regen_armor_bonus = self:upgrade_value("player", "de_regen", {0, 0})[2]
 
   if damage_ext then
     if regen_health then
-      local hp = damage_ext:get_real_health() / damage_ext:_max_health()
-      log(tostring(hp))
-      damage_ext:restore_health(math.log(2 / (hp + 1)), false, false)
+      damage_ext:restore_health(regen_health_bonus, false, false)
     end
     damage_ext:restore_armor(regen_armor_bonus)
   end

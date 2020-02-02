@@ -7,8 +7,8 @@ Hooks:PostHook(PlayerManager, "on_lethal_headshot_dealt", "playermanager__on_let
   end
 
   local damage_ext = player_unit:character_damage()
-  local regen_health_bonus = self:upgrade_value("player", "de_regen", {0, 0})[1]
-  local regen_armor_bonus = self:upgrade_value("player", "de_regen", {0, 0})[2]
+  local regen_health_bonus = self:upgrade_value("player", "hb_regen", {0, 0})[1]
+  local regen_armor_bonus = self:upgrade_value("player", "hb_regen", {0, 0})[2]
 
   if damage_ext then
     if regen_health then

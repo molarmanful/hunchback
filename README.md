@@ -17,7 +17,7 @@ Perk | Description
 1 - Spineless | 20% dodge + 15% dodge when crouching
 3 - Coward's Respite | 50% faster reload when crouching
 5 - Rat King | 10% faster movement speed, 20% faster crouching movement speed
-7 - Slippery | Dodging replenishes armor, 1sec invulnerability on armor break (5sec cooldown)
+7 - Roach Tactics | Dodging replenishes armor, 1sec invulnerability on armor break (5sec cooldown)
 9 - Surprise Lobotomy | 25% more headshot damage, armor and health on headshot kill (20 armor; health is given logarithmically, i.e. less health means more regen and more health means less regen)
 
 ## Playstyle
